@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: url('Capture1.PNG') no-repeat center center fixed; /* 设置背景图片 */
+    background-size: cover; /* 确保图片覆盖整个背景 */
+    overflow: hidden;
+  }
+  
+  .weather-app {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* 保持方框透明白背景 */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1; /* 确保方框在背景之上 */
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #weather-display {
+    margin-top: 20px;
+  }
+  
+  #weather-icon {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  
